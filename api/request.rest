@@ -1,0 +1,17 @@
+GET http://localhost:3001/players
+
+###
+
+POST http://localhost:3001/player/new
+Content-Type: application/json
+
+{
+    "name": "Ellu",
+    "hcp": "15",
+    "club": "AGK"
+    
+}
+
+###
+
+DELETE http://localhost:3001/player/delete/651573c0ecd08fc3946fb716
